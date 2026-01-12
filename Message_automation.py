@@ -42,11 +42,7 @@ class WhatsAppAutomationApp:
         self.msg_text.pack(fill="x")
         
         # Default Message from your code
-        default_msg = ("Kindly join the group ASAP for updates on the SnapAR Workshop happening on 27th Oct 2025.\n"
-                       "👉 https://chat.whatsapp.com/GiRACH58E9aJ3TG5O1tBv5\n\n"
-                       "📚 Learn XR/AR concepts, SnapAR tools, and Lens building.\n"
-                       "💻 Bring your laptop tomorrow — it’s mandatory.\n"
-                       "🎟️ Entry only for registered GITM students.")
+        default_msg = ("Hello,\n\n")
         self.msg_text.insert(tk.END, default_msg)
 
         # 3. Settings Section

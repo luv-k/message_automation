@@ -10,7 +10,7 @@ from datetime import datetime
 class WhatsAppAutomationApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("SnapAR Workshop Message Automator")
+        self.root.title("Message Automator")
         self.root.geometry("700x850")
         self.root.configure(bg="#f5f5f5")
         
